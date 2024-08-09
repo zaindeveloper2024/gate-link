@@ -1,0 +1,7 @@
+authenticate:
+  jwtsecret: "secret"
+routes:
+  - path: "/api/users"
+    target: "http://localhost:3000"
+  - path: "/api/products"
+    target: "http://localhost:3001"
